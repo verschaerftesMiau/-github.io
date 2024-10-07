@@ -6,13 +6,13 @@ h1 {
     text-align: center;
 }
 .cards_retro {
+    top:0;
     width: 100%;
     height: 150%;
     background-image: linear-gradient(rgba(240, 190, 115, 0.6), rgba(0, 0, 0, 1)), url("images/cards_retro.jpg");
     background-size:cover;
     background-position: center;
-    background-attachment:fixed;
-    position: absolute;
+    position: fixed;
     z-index: -1;
 }
 .grundregeln {
@@ -35,6 +35,7 @@ ul {
 }
 .zusatzregeln {
     margin: auto;
+    margin-bottom: 100px;
     width: 95%;
     text-align: left;
     position: relative;
